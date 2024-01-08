@@ -7,8 +7,15 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <>
+    <div class="">
     <h1 class="title">inicio de projeto 1</h1>
+
+      <ul>
+        <li>Inicio</li>
+        <li>Contatos</li>
+        <li>Portifólio</li>
+        <li>Sobre nos</li>
+      </ul>
     </>
   )
 }
