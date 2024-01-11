@@ -1,23 +1,15 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+// App.js
+import React from 'react';
+import FirstComponent from './Components/FirstComponent'; // Ajuste o caminho conforme a sua estrutura de pastas
+import './App.css';
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <div class="">
-    <h1 class="title">inicio de projeto 1</h1>
-
-      <ul>
-        <li>Inicio</li>
-        <li>Contatos</li>
-        <li>Portifólio</li>
-        <li>Sobre nos</li>
-      </ul>
-    </>
-  )
+    <div className="App">
+      <h1>Meu primeiro componente</h1>
+      <FirstComponent />
+    </div>
+  );
 }
 
-export default App
+export default App;
